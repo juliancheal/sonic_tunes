@@ -1,0 +1,17 @@
+# Giorgio
+
+with_fx :reverb do
+  with_fx :ixi_techno do
+   use_bpm 112
+   use_synth :tb303
+   play_pattern [:C5, :A3, :B4, :A3, :C5, :E5, :A3, :A4, :C5, :A3, :B4, :A3, :C5, :A4]
+   play_pattern [:C5, :A3, :B4, :A3, :C5, :E5, :A3, :A4, :C5, :A3, :B4, :A3, :C5, :A4]
+   play_pattern [:A4, :A3]
+   play_pattern [:A3, :A4]
+
+   play_pattern [:F4, :F4, :A4, :F4, :G4, :F4, :A4, :C5, :F4, :F4, :A4, :F4, :G4, :F4, :A4, :F4]
+
+
+   play_pattern [:E4, :E4, :G4, :E4, :F3, :E4, :G4, :B4, :E4, :E4, :G4, :E4, :F3, :E4, :G4, :E4]
+  end
+end
